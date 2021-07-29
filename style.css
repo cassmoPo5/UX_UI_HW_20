@@ -13,6 +13,7 @@
       background: #FFFF;
       font-family: 'Span', sans-serif;
       font-weight: 800;
+      text-align: center;
   
   }
   .container {
@@ -71,45 +72,21 @@
     font-family: 'Span', serif;
     font-size: 50px;
   }
+  .picture{
+    float: center;
+    width: 80%;
+  }
   .container2 {
     z-index: 1000;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     position: relative;
     margin-top: 200px;
-  
-  }
-  .card {
-    display: grid;
-    grid-template-columns: repeat (2,1fr);
-    grid-auto-rows: 2;
-    grid-gap: 1rem;
-    margin: 50px auto;
-    width: 800px;
-    height: 450px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    cursor: pointer;
-    transition: 0.4s;
-    column-count: 2;
-  }
-  .imgbox {
-    width: inherit;
-    height: inherit;
-    border-radius: 15px;
-  }
-  .imgbox img {
-    width: inherit;
-    height: inherit;
-    border-radius: 15px;
-    object-fit: cover;
-  }
-  .card:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-      -5px -5px 30px 15px rgba(0,0,0,0.22);
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
   }
   .footer-distributed {
     background-color: #EAC7B4;
